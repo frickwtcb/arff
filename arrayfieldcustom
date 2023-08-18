@@ -1554,6 +1554,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			Button.Title.RichText = true
 			Button.ElementIndicator.Text = ButtonSettings.Interact or 'button'
 			Button.Visible = true
+			Button.Name.RichText = true
 
 			Button.BackgroundTransparency = 1
 			Button.UIStroke.Transparency = 1
